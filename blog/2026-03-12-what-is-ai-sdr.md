@@ -1,8 +1,8 @@
 ---
 title: "What Is an AI SDR? And Why MSPs Need One in 2026"
 date: "2026-03-12"
-author: "B2Bmeetings.com"
-description: "An AI SDR automates prospect research, personalized outreach, and follow-up sequences. Learn how MSPs and IT firms use AI-powered sales development to book 15-20 meetings per month."
+author: "Tamir Morris"
+description: "An AI SDR automates prospect research, outreach, and follow-up. Learn how MSPs use AI sales development to book 15-20 meetings per month."
 keywords: ["ai sdr", "ai sales development representative", "automated sdr", "ai outbound sales"]
 category: "ai-sales"
 schema_type: "article"
@@ -76,7 +76,7 @@ Think of it this way: the AI SDR is the engine that fills the calendar. The huma
 | **Follow-up consistency** | Drops off after 2-3 touches | Maintains full sequence every time |
 | **Working hours** | 8 hours per day, 5 days per week | 24/7 operation |
 | **Data utilization** | Limited by manual research speed | Ingests multiple data sources simultaneously |
-| **Turnover risk** | [Average SDR tenure: 14 months](https://blog.hubspot.com/sales/sales-development-benchmarks) | Zero turnover |
+| **Turnover risk** | [Average SDR tenure: 14 months](https://www.bridgegroupinc.com/sdr-metrics) | Zero turnover |
 | **Live conversation ability** | Strong | Not applicable -- hands off to humans |
 
 The comparison is not about which is "better" in absolute terms. It is about recognizing that the first 90% of the SDR workflow -- the part that involves data processing, message generation, and sequence management -- is fundamentally better suited to automation. The last 10% -- live human interaction -- is fundamentally better suited to people.
@@ -87,7 +87,7 @@ AI SDRs are particularly effective for MSPs, IT service firms, and cybersecurity
 
 ### The MSP Market Opportunity Is Massive -- and Fragmented
 
-According to [Statista's managed services market data](https://www.statista.com/topics/5765/managed-services-market-worldwide/), 73% of small and mid-size businesses already have a managed IT provider. But 46% of them are unhappy with their current provider. That represents a massive addressable market of companies that are actively open to switching -- if someone reaches them with the right message at the right time. The average MSP client is worth $2,700 in monthly recurring revenue, translating to a lifetime value between $162,000 and $337,000 per client.
+According to [CompTIA's State of the Channel research](https://www.comptia.org/content/research/state-of-the-channel), 73% of small and mid-size businesses already have a managed IT provider. But 46% of them are unhappy with their current provider. That represents a massive addressable market of companies that are actively open to switching -- if someone reaches them with the right message at the right time. The average MSP client is worth $2,700 in monthly recurring revenue, translating to a lifetime value between $162,000 and $337,000 per client.
 
 With numbers like those, a single new client won through outbound can pay for an entire year of AI SDR investment.
 
@@ -145,7 +145,7 @@ For MSPs and IT companies considering an AI SDR approach, there are two paths:
 
 For most MSPs, the managed approach makes more sense. The core business is delivering IT services, not building sales automation infrastructure. Partnering with a specialist means the AI SDR is someone else's problem to maintain and optimize -- and the MSP gets to focus on closing deals and delivering for clients.
 
-To understand [why outbound is essential for MSPs](/why-msps-need-outbound-sales) in the first place, and how AI SDRs fit into the broader growth strategy, B2Bmeetings.com has published additional resources for IT service firms evaluating their options.
+To understand [why outbound is essential for MSPs](/why-msps-need-outbound-sales) in the first place, and how AI SDRs fit into the broader growth strategy, see the complete [MSP lead generation guide](/msp-lead-generation-guide) for a deeper look at all available channels and tactics.
 
 ## The Bottom Line
 

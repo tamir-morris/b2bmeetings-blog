@@ -1,13 +1,14 @@
 ---
 title: "Outbound Sales for IT Staffing Firms: How to Fill Your Bench and Win Enterprise Contracts"
-description: "A practical guide to IT staffing lead generation. Learn trigger-based outreach, enterprise targeting, and how to book meetings with IT directors and procurement."
+description: "How IT staffing firms use trigger-based outbound to book meetings with IT directors and win direct-client enterprise contracts."
 date: "2026-03-13"
+author: "Tamir Morris"
 keywords: ["it staffing lead generation", "it staffing sales", "staffing firm outbound", "it recruiting sales strategy"]
-category: "Industry Guides"
+category: "industry guides"
 schema_type: "article"
 faqs:
   - question: "How do IT staffing firms generate leads?"
-    answer: "The most effective IT staffing lead generation combines trigger-based outreach (targeting companies with active hiring freezes lifting, new project announcements, or technology migrations) with direct outreach to IT directors and procurement at mid-market companies. Firms that target based on real buying signals rather than generic job titles see 3-5x higher response rates than those running undifferentiated outbound."
+    answer: "The most effective IT staffing lead generation combines trigger-based outreach (targeting companies with active hiring freezes lifting, new project announcements, or technology migrations) with direct outreach to IT directors and procurement at mid-market companies. Firms that target based on real buying signals rather than generic job titles see significantly higher response rates than those running undifferentiated outbound."
   - question: "How do you win enterprise staffing contracts?"
     answer: "Winning enterprise IT staffing contracts requires getting on the vendor approved list (VAL) and establishing a master service agreement (MSA) before competing on individual requisitions. The most reliable path is a direct outreach program to IT directors and VP of Engineering titles at target accounts, focused on bench depth, time-to-fill benchmarks, and contract-to-hire conversion rates rather than generic staffing capabilities."
   - question: "What is a good bill rate spread for IT contractors?"

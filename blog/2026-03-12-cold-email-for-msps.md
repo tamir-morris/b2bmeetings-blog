@@ -1,7 +1,7 @@
 ---
 title: "Cold Email for MSPs: Templates, Strategy, and What Actually Works in 2026"
 date: "2026-03-12"
-author: "B2Bmeetings.com"
+author: "Tamir Morris"
 description: "Proven cold email strategies and templates for MSPs. Learn how to write emails that get replies from IT directors and CISOs, with real subject lines and follow-up sequences."
 keywords: ["cold email for msps", "msp cold email templates", "cold email it services", "msp outreach email"]
 category: "cold-email"
@@ -25,7 +25,7 @@ This guide breaks down exactly how to write cold emails for MSPs that actually l
 
 ## Do Cold Emails Work for MSPs?
 
-Yes, and cold email is uniquely well-suited to the MSP sales model for one critical reason: displacement selling. Unlike SaaS companies selling a new category, MSPs are competing to replace an existing provider. Research from [Kaseya's annual MSP benchmark survey](https://www.channelfutures.com/) shows that roughly 73% of small and mid-market businesses already have an IT provider, but nearly 46% report dissatisfaction with response times, communication, or strategic guidance.
+Yes, and cold email is uniquely well-suited to the MSP sales model for one critical reason: displacement selling. Unlike SaaS companies selling a new category, MSPs are competing to replace an existing provider. According to [CompTIA's State of the Channel research](https://www.comptia.org/content/research/state-of-the-channel), roughly 73% of small and mid-market businesses already have an IT provider, but nearly 46% report dissatisfaction with response times, communication, or strategic guidance.
 
 That gap between "has a provider" and "happy with their provider" is where cold email thrives. An MSP does not need to educate the market on why managed IT matters. The prospect already knows. The job of a cold email is to arrive at the right moment -- when a compliance deadline is approaching, when their current provider dropped the ball, or when a new CTO is re-evaluating vendors -- and offer a better alternative.
 
@@ -148,7 +148,7 @@ Here is a 5-touch follow-up cadence that balances persistence with professionali
 - **Day 1 -- Initial email.** The trigger-based template from above. Sets the context and makes the first offer.
 - **Day 3 -- Short follow-up.** Two to three sentences. Reference the original email and add one new piece of value: a relevant stat, a brief case study reference, or a link to a useful resource.
 - **Day 7 -- New angle.** Shift the approach. If the first email led with compliance, the third touch might reference a recent industry trend or a competitor's move. Same prospect, different trigger.
-- **Day 14 -- Social proof.** Share a specific result: "We helped a 50-person manufacturing firm cut their IT ticket resolution time by 40% in the first quarter." Concrete outcomes build credibility that generic claims cannot.
+- **Day 14 -- Social proof.** Share a specific result: "We helped a 50-person manufacturing firm cut their IT ticket resolution time by 40% in the first quarter" (replace with your actual client result). Concrete outcomes build credibility that generic claims cannot.
 - **Day 21 -- Breakup email.** A brief, respectful close: "I will assume the timing is not right and will not follow up again. If things change, here is my calendar link." Breakup emails consistently generate replies because they remove pressure.
 
 Each follow-up should be a reply to the original thread, not a new email. This keeps the conversation in one place and signals that the sender is following up on a real message, not blasting from a list.
@@ -183,7 +183,7 @@ Even technically competent MSPs frequently undermine their cold email efforts wi
 
 Measuring the right metrics is what separates MSPs running real outbound programs from those guessing. Here are the numbers that matter:
 
-- **Open rate:** 45-65% is healthy for cold email. [HubSpot's email marketing benchmarks](https://blog.hubspot.com/marketing/email-marketing-stats) suggest that below 40% indicates deliverability or subject line problems.
+- **Open rate:** 30-45% is healthy for cold email. [HubSpot's email marketing benchmarks](https://blog.hubspot.com/marketing/email-marketing-stats) suggest that below 25% indicates deliverability or subject line problems.
 - **Reply rate:** 3-8% positive reply rate is strong. Below 2% signals a targeting or messaging issue.
 - **Bounce rate:** Keep below 3%. Above 5% means the list needs cleaning immediately.
 - **Meeting booked rate:** Of positive replies, 30-50% should convert to a scheduled meeting with proper follow-up.

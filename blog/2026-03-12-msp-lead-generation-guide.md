@@ -1,8 +1,8 @@
 ---
 title: "MSP Lead Generation: The Complete Guide for 2026"
 date: "2026-03-12"
-author: "B2Bmeetings.com"
-description: "The definitive guide to MSP lead generation. Learn outbound strategies, trigger-based targeting, AI-powered prospecting, and how top MSPs book 15-20 meetings per month."
+author: "Tamir Morris"
+description: "Learn how top MSPs book 15-20 meetings per month using outbound strategies, trigger-based targeting, and AI-powered prospecting."
 keywords: ["msp lead generation", "managed services lead generation", "how to get clients for msp", "msp sales strategies"]
 category: "lead-generation"
 schema_type: "article"
@@ -65,7 +65,7 @@ Actionable signals: SEC filings mentioning compliance initiatives, job postings 
 
 ### New CTO/CIO/IT Director Hires
 
-A new technology executive evaluates every vendor relationship within their first 90 days. Research from [ChannelE2E](https://www.channele2e.com/) shows that new IT leaders are 4x more likely to switch providers than tenured ones. The outreach window is narrow — the first 30-60 days after they start.
+A new technology executive evaluates every vendor relationship within their first 90 days. New IT leadership often triggers vendor reviews, creating a natural opening for outreach. The outreach window is narrow — the first 30-60 days after they start.
 
 Actionable signals: LinkedIn job change alerts, press releases, company announcements.
 
@@ -205,7 +205,7 @@ At $2,700 average MRR per new client, a single closed deal from a $7,000/month l
 
 ## What Should MSPs Do Next?
 
-The MSPs that will grow fastest in 2026 are the ones that stop waiting for the phone to ring and start building a proactive outbound engine. The referral ceiling is real, but it is not permanent. A structured [outbound sales program for MSPs](/why-msps-need-outbound-sales) can be up and running within 30-45 days.
+The MSPs that will grow fastest in 2026 are the ones that stop waiting for the phone to ring and start building a proactive outbound engine. The referral ceiling is real, but it is not permanent. A structured [cold email program for MSPs](/cold-email-for-msps) can be up and running within 30-45 days.
 
 The playbook is clear: identify trigger events, build targeted prospect lists, personalize outreach with AI-assisted research, and coordinate across email, LinkedIn, and phone. Do this consistently, and 15-20 qualified meetings per month is an achievable, repeatable target.
 

@@ -1,7 +1,7 @@
 ---
 title: "Outbound vs Inbound Marketing for MSPs: Which Actually Works?"
 date: "2026-03-12"
-author: "B2Bmeetings.com"
+author: "Tamir Morris"
 description: "A data-driven comparison of outbound vs inbound marketing for MSPs. Learn which strategy delivers faster ROI, when to use each, and why most growing MSPs need both."
 keywords: ["outbound vs inbound marketing msp", "msp marketing strategy", "outbound sales for msp", "inbound marketing msp"]
 category: "sales-strategy"
@@ -90,7 +90,7 @@ Outbound is the right choice when the MSP needs meetings on a predictable timeli
 
 **Entering a new market.** An MSP expanding into a new vertical (healthcare, legal, financial services) or a new geography needs to build pipeline in that segment quickly. Outbound allows precise targeting of the exact companies the MSP wants to serve.
 
-**Displacing competitors.** Since [Forrester's B2B buying research](https://www.forrester.com/research/b2b-marketing/) confirms that 73% of prospects already have a provider and 46% are unhappy, outbound is the most direct way to reach those dissatisfied companies. Inbound only works if those unhappy companies happen to be searching — many are not actively looking but would switch if approached with the right message at the right time.
+**Displacing competitors.** Since [CompTIA's State of the Channel research](https://www.comptia.org/content/research/state-of-the-channel) confirms that 73% of prospects already have a provider and 46% are unhappy, outbound is the most direct way to reach those dissatisfied companies. Inbound only works if those unhappy companies happen to be searching — many are not actively looking but would switch if approached with the right message at the right time.
 
 **Filling a pipeline gap.** When an MSP loses a major client or has a slow quarter, outbound provides an immediate correction. Inbound cannot be turned on and off like a faucet.
 

@@ -1,7 +1,7 @@
 ---
 title: "How Much Does B2B Appointment Setting Cost in 2026?"
 date: "2026-03-12"
-author: "B2Bmeetings.com"
+author: "Tamir Morris"
 description: "B2B appointment setting costs $3,000-$15,000/month depending on model. Compare in-house SDR, pay-per-appointment, and managed service pricing with real ROI math."
 keywords: ["b2b appointment setting cost", "appointment setting pricing", "outsourced sdr cost", "b2b lead generation pricing"]
 category: "appointment-setting"
@@ -36,7 +36,7 @@ Here is what the real monthly cost looks like:
 - **Management time:** $1,000-$2,000/month (your time or a sales manager's)
 - **Training and onboarding:** $500-$1,200/month (amortized over first year)
 
-The hidden cost is turnover. According to [Bridge Group's SDR benchmarks](https://blog.hubspot.com/sales/sales-development-benchmarks), the average SDR tenure is 14 months. Every time you lose a rep and start over, you burn another $15,000-$25,000 in recruiting, onboarding, and lost momentum. For companies with fewer than 50 employees, this churn makes in-house SDR teams one of the most expensive ways to generate meetings.
+The hidden cost is turnover. According to [Bridge Group's SDR metrics research](https://www.bridgegroupinc.com/sdr-metrics), the average SDR tenure is 14 months. Every time you lose a rep and start over, you burn another $15,000-$25,000 in recruiting, onboarding, and lost momentum. For companies with fewer than 50 employees, this churn makes in-house SDR teams one of the most expensive ways to generate meetings.
 
 The upside is control. You own the process, the messaging, and the relationships. If you have the management infrastructure to recruit, train, and retain top SDR talent, in-house can be the most scalable long-term option. Most IT service companies under $5M in revenue do not have that infrastructure yet.
 
@@ -83,7 +83,7 @@ The table below compares the three primary models side by side, using realistic 
 | **Scalability** | Hire more reps | Increase budget | Expand campaign scope |
 | **Best for** | Companies with sales management | Budget-conscious testing | Growth-focused IT firms |
 
-For most MSPs and IT service companies doing $1M-$10M in revenue — a segment that [Canalys channel research](https://www.canalys.com/research/channel-partner) shows is growing fastest — managed services deliver the best balance of speed, quality, and predictability. The ramp time alone makes a compelling case: a managed service starts generating pipeline in weeks, while an in-house hire might not hit stride for half a year.
+For most MSPs and IT service companies doing $1M-$10M in revenue — a segment that [CompTIA's IT industry research](https://www.comptia.org/content/research/it-industry-trends-analysis) shows is growing fastest — managed services deliver the best balance of speed, quality, and predictability. The ramp time alone makes a compelling case: a managed service starts generating pipeline in weeks, while an in-house hire might not hit stride for half a year.
 
 ## What Factors Affect B2B Appointment Setting Pricing?
 
@@ -117,7 +117,7 @@ The companies that struggle with outsourced appointment setting share common tra
 
 Research from [CompTIA's IT Industry Outlook](https://www.comptia.org/content/research/it-industry-trends-analysis) shows that 73% of IT service companies already use some form of outsourced lead generation, and 46% report being unhappy with their current provider. The issue is rarely whether appointment setting works. It is whether the provider understands the IT services market well enough to book meetings that actually convert.
 
-This is also why [outbound sales for MSPs](/why-msps-need-outbound-sales) requires a different approach than outbound for SaaS or professional services. The buyer journey, objection patterns, and competitive landscape are unique, and the appointment setting strategy must reflect that.
+This is also why [outbound sales for MSPs](/why-msps-need-outbound-sales) requires a different approach than outbound for SaaS or professional services. The buyer journey, objection patterns, and competitive landscape are unique, and the appointment setting strategy must reflect that. For a closer look at the outreach tactics that drive these meetings, see the guide on [cold email for MSPs](/cold-email-for-msps). And if you are evaluating whether to automate the SDR function entirely, read [what an AI SDR is and why MSPs need one](/what-is-ai-sdr).
 
 ## How Long Does It Take to See Results from Appointment Setting?
 
