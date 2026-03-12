@@ -238,9 +238,53 @@ function Footer() {
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const orgJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "B2Bmeetings.com",
+    url: "https://www.b2bmeetings.com",
+    logo: "https://www.b2bmeetings.com/images/brand/logo-secondary-light.png",
+    description: "B2B appointment setting and outbound sales agency for MSPs, IT service firms, and cybersecurity companies.",
+    founder: {
+      "@type": "Person",
+      name: "Tamir Morris",
+      jobTitle: "CEO",
+      url: "https://www.linkedin.com/in/tamir-morris/",
+    },
+    address: [
+      {
+        "@type": "PostalAddress",
+        streetAddress: "7901 4th St N, STE 300",
+        addressLocality: "St. Petersburg",
+        addressRegion: "FL",
+        postalCode: "33702",
+        addressCountry: "US",
+      },
+      {
+        "@type": "PostalAddress",
+        streetAddress: "King George St 20",
+        addressLocality: "Jerusalem",
+        addressCountry: "IL",
+      },
+    ],
+    sameAs: [
+      "https://www.linkedin.com/company/b2bmeetings",
+      "https://twitter.com/b2bmeetings",
+    ],
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+1-941-229-5983",
+      contactType: "sales",
+    },
+  };
+
   return (
     <html lang="en">
       <body className="bg-white text-gray-900">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
+        />
         <Header />
         <main className="min-h-screen bg-white">{children}</main>
         <Footer />

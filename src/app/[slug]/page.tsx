@@ -28,21 +28,66 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
   const htmlContent = await markdownToHtml(post.content);
 
-  const jsonLd = {
+  // Enhanced JSON-LD: BlogPosting with Person author
+  const blogPostingJsonLd = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline: post.title,
     description: post.description,
     datePublished: post.date,
-    author: { "@type": "Organization", name: post.author, url: "https://www.b2bmeetings.com" },
-    publisher: { "@type": "Organization", name: "B2Bmeetings.com", url: "https://www.b2bmeetings.com" },
+    dateModified: post.date,
+    author: {
+      "@type": "Person",
+      name: "Tamir Morris",
+      jobTitle: "CEO, B2Bmeetings.com",
+      url: "https://www.linkedin.com/in/tamir-morris/",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "B2Bmeetings.com",
+      url: "https://www.b2bmeetings.com",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://www.b2bmeetings.com/images/brand/logo-secondary-light.png",
+      },
+    },
     mainEntityOfPage: `https://blog.b2bmeetings.com/${post.slug}`,
     keywords: post.keywords.join(", "),
+    articleSection: post.category,
   };
+
+  // BreadcrumbList schema
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Blog", item: "https://blog.b2bmeetings.com" },
+      { "@type": "ListItem", position: 2, name: post.category.replace(/-/g, " "), item: `https://blog.b2bmeetings.com?category=${post.category}` },
+      { "@type": "ListItem", position: 3, name: post.title, item: `https://blog.b2bmeetings.com/${post.slug}` },
+    ],
+  };
+
+  // Conditional FAQPage schema
+  const faqJsonLd = post.faqs && post.faqs.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: post.faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  } : null;
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      {faqJsonLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      )}
       <article className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Breadcrumb */}
         <nav className="text-sm text-[var(--color-text-muted)] mb-8">

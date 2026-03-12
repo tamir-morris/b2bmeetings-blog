@@ -16,6 +16,8 @@ export interface BlogPost {
   category: string;
   content: string;
   readingTime: number;
+  faqs?: Array<{ question: string; answer: string }>;
+  schema_type?: string;
 }
 
 export function getAllPosts(): BlogPost[] {
@@ -40,6 +42,8 @@ export function getAllPosts(): BlogPost[] {
       category: data.category || "uncategorized",
       content,
       readingTime,
+      faqs: data.faqs || undefined,
+      schema_type: data.schema_type || undefined,
     };
   });
 
