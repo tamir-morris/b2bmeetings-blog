@@ -9,8 +9,16 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://blog.b2bmeetings.com" },
 };
 
-export default function BlogHome() {
-  const posts = getAllPosts();
+export default async function BlogHome({
+  searchParams,
+}: {
+  searchParams: Promise<{ category?: string }>;
+}) {
+  const { category } = await searchParams;
+  const allPosts = getAllPosts();
+  const posts = category
+    ? allPosts.filter((p) => p.category === category)
+    : allPosts;
   const categories = getAllCategories();
 
   return (
@@ -31,7 +39,11 @@ export default function BlogHome() {
         <div className="flex flex-wrap gap-2 mb-10">
           <Link
             href="/"
-            className="text-sm px-3 py-1.5 rounded-full bg-[var(--color-text)] text-white font-medium no-underline hover:opacity-90 transition"
+            className={`text-sm px-3 py-1.5 rounded-full no-underline transition ${
+              !category
+                ? "bg-[var(--color-text)] text-white font-medium"
+                : "border border-[var(--color-border)] text-[var(--color-text-muted)] hover:border-[var(--color-cyan)] hover:text-[var(--color-cyan)]"
+            }`}
           >
             All
           </Link>
@@ -39,7 +51,11 @@ export default function BlogHome() {
             <Link
               key={cat}
               href={`/?category=${cat}`}
-              className="text-sm px-3 py-1.5 rounded-full border border-[var(--color-border)] text-[var(--color-text-muted)] no-underline hover:border-[var(--color-cyan)] hover:text-[var(--color-cyan)] transition capitalize"
+              className={`text-sm px-3 py-1.5 rounded-full no-underline transition capitalize ${
+                category === cat
+                  ? "bg-[var(--color-text)] text-white font-medium"
+                  : "border border-[var(--color-border)] text-[var(--color-text-muted)] hover:border-[var(--color-cyan)] hover:text-[var(--color-cyan)]"
+              }`}
             >
               {cat.replace(/-/g, " ")}
             </Link>
