@@ -25,7 +25,7 @@ This guide breaks down exactly how to write cold emails for MSPs that actually l
 
 ## Do Cold Emails Work for MSPs?
 
-Yes, and cold email is uniquely well-suited to the MSP sales model for one critical reason: displacement selling. Unlike SaaS companies selling a new category, MSPs are competing to replace an existing provider. Research from Kaseya's annual MSP benchmark survey shows that roughly 73% of small and mid-market businesses already have an IT provider, but nearly 46% report dissatisfaction with response times, communication, or strategic guidance.
+Yes, and cold email is uniquely well-suited to the MSP sales model for one critical reason: displacement selling. Unlike SaaS companies selling a new category, MSPs are competing to replace an existing provider. Research from [Kaseya's annual MSP benchmark survey](https://www.channelfutures.com/) shows that roughly 73% of small and mid-market businesses already have an IT provider, but nearly 46% report dissatisfaction with response times, communication, or strategic guidance.
 
 That gap between "has a provider" and "happy with their provider" is where cold email thrives. An MSP does not need to educate the market on why managed IT matters. The prospect already knows. The job of a cold email is to arrive at the right moment -- when a compliance deadline is approaching, when their current provider dropped the ball, or when a new CTO is re-evaluating vendors -- and offer a better alternative.
 
@@ -80,7 +80,7 @@ Below are three complete cold email templates, each built around a different tri
 >
 > Hi {First name},
 >
-> I noticed {Company} is a DoD contractor, which means CMMC Level 2 certification is likely on your radar for 2026.
+> I noticed {Company} is a DoD contractor, which means [CMMC Level 2 certification](https://dodcio.defense.gov/CMMC/) is likely on your radar for 2026.
 >
 > Most mid-market contractors we talk to are still running gap assessments and realizing their current MSP does not have the controls in place to support the audit.
 >
@@ -157,7 +157,7 @@ Each follow-up should be a reply to the original thread, not a new email. This k
 
 None of the templates or strategies above matter if emails never reach the inbox. Deliverability is the foundation of every successful cold email program, and MSPs frequently underestimate how much infrastructure work is required before sending a single message.
 
-**Domain authentication.** Every sending domain must have SPF, DKIM, and DMARC records properly configured. SPF tells receiving servers which IPs are authorized to send on behalf of the domain. DKIM adds a cryptographic signature to verify the email was not altered in transit. DMARC ties the two together and tells servers what to do with messages that fail authentication. Missing any of these three records is the single most common reason MSP cold emails land in spam.
+**Domain authentication.** Every sending domain must have SPF, DKIM, and DMARC records properly configured. [Google's Email Sender Guidelines](https://support.google.com/a/answer/81126) and [Microsoft's anti-spam policies](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-spam-protection-about) both require these records for consistent inbox placement. SPF tells receiving servers which IPs are authorized to send on behalf of the domain. DKIM adds a cryptographic signature to verify the email was not altered in transit. DMARC ties the two together and tells servers what to do with messages that fail authentication. Missing any of these three records is the single most common reason MSP cold emails land in spam.
 
 **Domain warming.** New sending domains must be warmed for a minimum of 14 days before any cold outreach. During warming, the domain sends and receives small volumes of legitimate email (typically automated through a warming tool) to establish a positive sender reputation. Skipping this step almost guarantees deliverability problems in the first week of outreach.
 
@@ -183,7 +183,7 @@ Even technically competent MSPs frequently undermine their cold email efforts wi
 
 Measuring the right metrics is what separates MSPs running real outbound programs from those guessing. Here are the numbers that matter:
 
-- **Open rate:** 45-65% is healthy for cold email. Below 40% indicates deliverability or subject line problems.
+- **Open rate:** 45-65% is healthy for cold email. [HubSpot's email marketing benchmarks](https://blog.hubspot.com/marketing/email-marketing-stats) suggest that below 40% indicates deliverability or subject line problems.
 - **Reply rate:** 3-8% positive reply rate is strong. Below 2% signals a targeting or messaging issue.
 - **Bounce rate:** Keep below 3%. Above 5% means the list needs cleaning immediately.
 - **Meeting booked rate:** Of positive replies, 30-50% should convert to a scheduled meeting with proper follow-up.

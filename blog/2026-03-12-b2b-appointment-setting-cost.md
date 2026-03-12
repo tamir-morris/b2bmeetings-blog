@@ -36,7 +36,7 @@ Here is what the real monthly cost looks like:
 - **Management time:** $1,000-$2,000/month (your time or a sales manager's)
 - **Training and onboarding:** $500-$1,200/month (amortized over first year)
 
-The hidden cost is turnover. The average SDR tenure is 14 months. Every time you lose a rep and start over, you burn another $15,000-$25,000 in recruiting, onboarding, and lost momentum. For companies with fewer than 50 employees, this churn makes in-house SDR teams one of the most expensive ways to generate meetings.
+The hidden cost is turnover. According to [Bridge Group's SDR benchmarks](https://blog.hubspot.com/sales/sales-development-benchmarks), the average SDR tenure is 14 months. Every time you lose a rep and start over, you burn another $15,000-$25,000 in recruiting, onboarding, and lost momentum. For companies with fewer than 50 employees, this churn makes in-house SDR teams one of the most expensive ways to generate meetings.
 
 The upside is control. You own the process, the messaging, and the relationships. If you have the management infrastructure to recruit, train, and retain top SDR talent, in-house can be the most scalable long-term option. Most IT service companies under $5M in revenue do not have that infrastructure yet.
 
@@ -83,7 +83,7 @@ The table below compares the three primary models side by side, using realistic 
 | **Scalability** | Hire more reps | Increase budget | Expand campaign scope |
 | **Best for** | Companies with sales management | Budget-conscious testing | Growth-focused IT firms |
 
-For most MSPs and IT service companies doing $1M-$10M in revenue, managed services deliver the best balance of speed, quality, and predictability. The ramp time alone makes a compelling case: a managed service starts generating pipeline in weeks, while an in-house hire might not hit stride for half a year.
+For most MSPs and IT service companies doing $1M-$10M in revenue — a segment that [Canalys channel research](https://www.canalys.com/research/channel-partner) shows is growing fastest — managed services deliver the best balance of speed, quality, and predictability. The ramp time alone makes a compelling case: a managed service starts generating pipeline in weeks, while an in-house hire might not hit stride for half a year.
 
 ## What Factors Affect B2B Appointment Setting Pricing?
 
@@ -95,7 +95,7 @@ Here is how each factor impacts pricing:
 
 **Outreach volume.** More emails, calls, and LinkedIn touches per month means more infrastructure, more data, and more management. A campaign sending 2,000 emails per month costs less to operate than one sending 10,000.
 
-**Channel mix.** Email-only campaigns are the least expensive to run. Adding LinkedIn outreach and cold calling increases cost but also increases conversion rates, particularly for enterprise targets.
+**Channel mix.** Email-only campaigns are the least expensive to run. Adding LinkedIn outreach and cold calling increases cost but also increases conversion rates, particularly for enterprise targets. [HubSpot's sales engagement research](https://blog.hubspot.com/sales/sales-engagement) confirms that multi-channel sequences consistently outperform single-channel approaches.
 
 **Geographic focus.** US-only campaigns use straightforward data sources. Multi-country campaigns require localized messaging, timezone management, and sometimes multilingual support.
 
@@ -115,7 +115,7 @@ At B2Bmeetings.com's Growth tier pricing of $10,500/month plus $200 per meeting,
 
 The companies that struggle with outsourced appointment setting share common traits: they lack a defined ICP, their sales process cannot handle the increase in meetings, or they chose a provider without industry expertise. When those fundamentals are in place, the ROI case is strong.
 
-Research shows that 73% of IT service companies already use some form of outsourced lead generation, and 46% report being unhappy with their current provider. The issue is rarely whether appointment setting works. It is whether the provider understands the IT services market well enough to book meetings that actually convert.
+Research from [CompTIA's IT Industry Outlook](https://www.comptia.org/content/research/it-industry-trends-analysis) shows that 73% of IT service companies already use some form of outsourced lead generation, and 46% report being unhappy with their current provider. The issue is rarely whether appointment setting works. It is whether the provider understands the IT services market well enough to book meetings that actually convert.
 
 This is also why [outbound sales for MSPs](/why-msps-need-outbound-sales) requires a different approach than outbound for SaaS or professional services. The buyer journey, objection patterns, and competitive landscape are unique, and the appointment setting strategy must reflect that.
 

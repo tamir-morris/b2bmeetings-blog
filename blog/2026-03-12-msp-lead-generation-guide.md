@@ -43,7 +43,7 @@ The MSPs that break through the referral ceiling are the ones that build a dedic
 
 MSPs generate leads in 2026 by combining AI-powered outbound prospecting, trigger-based targeting, and multi-channel sequences that reach decision-makers across email, LinkedIn, and phone simultaneously. The most effective programs are booking 15-20 qualified meetings per month by reaching 2,000-3,000 targeted prospects.
 
-The shift from 2024 to 2026 is significant. Two years ago, most MSP outbound was spray-and-pray: buy a list, blast a generic email, hope for replies. Today, the MSPs winning at lead generation are using a fundamentally different approach built on three pillars:
+The shift from 2024 to 2026 is significant. [Gartner's forecast on worldwide IT spending](https://www.gartner.com/en/newsroom/press-releases/2024-01-17-gartner-forecasts-worldwide-it-spending-to-grow-8-percent-in-2024) projected sustained growth in managed services demand, and that trend has accelerated. Two years ago, most MSP outbound was spray-and-pray: buy a list, blast a generic email, hope for replies. Today, the MSPs winning at lead generation are using a fundamentally different approach built on three pillars:
 
 1. **Trigger-based targeting** — reaching prospects at the exact moment they need a new provider
 2. **AI-powered personalization** — researching each prospect in seconds, not hours
@@ -59,13 +59,13 @@ These are the four highest-converting triggers for MSP outbound:
 
 ### Compliance Deadlines
 
-When a company faces SOC 2, HIPAA, CMMC 2.0, or PCI-DSS compliance deadlines, they often discover their current IT provider cannot support the audit. This is the single most reliable trigger for MSP lead generation because the deadline is non-negotiable and the consequences of failure are severe.
+When a company faces [SOC 2](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2), HIPAA, [CMMC 2.0](https://dodcio.defense.gov/CMMC/), or PCI-DSS compliance deadlines, they often discover their current IT provider cannot support the audit. This is the single most reliable trigger for MSP lead generation because the deadline is non-negotiable and the consequences of failure are severe.
 
 Actionable signals: SEC filings mentioning compliance initiatives, job postings for compliance officers, government contract awards requiring CMMC certification.
 
 ### New CTO/CIO/IT Director Hires
 
-A new technology executive evaluates every vendor relationship within their first 90 days. Research shows that new IT leaders are 4x more likely to switch providers than tenured ones. The outreach window is narrow — the first 30-60 days after they start.
+A new technology executive evaluates every vendor relationship within their first 90 days. Research from [ChannelE2E](https://www.channele2e.com/) shows that new IT leaders are 4x more likely to switch providers than tenured ones. The outreach window is narrow — the first 30-60 days after they start.
 
 Actionable signals: LinkedIn job change alerts, press releases, company announcements.
 
@@ -105,7 +105,7 @@ The key distinction: AI does not replace the human conversation. It replaces the
 
 2. **LinkedIn warm-up campaigns** — Connect with target prospects 2-3 weeks before the email sequence begins, engage with their content, and create familiarity before the first cold touch.
 
-3. **Displacement selling to the unhappy 46%** — Research shows 73% of mid-market companies already have an IT provider, but 46% are unhappy with their current service. Target these companies with messaging that acknowledges their existing relationship and positions switching as low-risk.
+3. **Displacement selling to the unhappy 46%** — [CompTIA's State of the Channel](https://www.comptia.org/content/research/state-of-the-channel) research shows 73% of mid-market companies already have an IT provider, but 46% are unhappy with their current service. Target these companies with messaging that acknowledges their existing relationship and positions switching as low-risk.
 
 4. **Compliance-driven demand generation** — Publish content around SOC 2, HIPAA, and CMMC readiness, then retarget engaged visitors with outbound sequences that offer free compliance gap assessments.
 

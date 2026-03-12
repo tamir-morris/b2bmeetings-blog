@@ -29,7 +29,7 @@ Referrals are the single best lead source for MSPs, but they do not scale. Most 
 
 The math is straightforward. An MSP with 40 clients that gets 2-3 referrals per quarter adds roughly $80,000-$120,000 in new MRR per year. That barely covers churn. To break through to $5M or $10M, the MSP needs a repeatable, controllable pipeline — and that means either outbound marketing, inbound marketing, or a combination of both.
 
-Here is what makes the MSP market uniquely challenging: 73% of businesses already have an IT provider. MSPs are not selling into a vacuum. They are displacing incumbents. And yet, 46% of businesses report being unhappy with their current provider. That gap between dissatisfaction and switching is where the right marketing strategy makes all the difference.
+Here is what makes the MSP market uniquely challenging: according to [CompTIA's State of the Channel](https://www.comptia.org/content/research/state-of-the-channel) research, 73% of businesses already have an IT provider. MSPs are not selling into a vacuum. They are displacing incumbents. And yet, 46% of businesses report being unhappy with their current provider. That gap between dissatisfaction and switching is where the right marketing strategy makes all the difference.
 
 ## What Is Outbound Marketing for MSPs?
 
@@ -48,7 +48,7 @@ The result is a predictable flow of qualified meetings with decision-makers who 
 
 ## What Is Inbound Marketing for MSPs?
 
-Inbound marketing attracts potential clients to the MSP through content, search engine optimization (SEO), paid advertising, and social media presence. Instead of reaching out to prospects, the MSP creates content that prospects find when they are actively searching for solutions.
+Inbound marketing attracts potential clients to the MSP through content, search engine optimization (SEO), paid advertising, and social media presence. As [HubSpot's inbound marketing methodology](https://www.hubspot.com/inbound-marketing) describes, the goal is to earn attention rather than buy it. Instead of reaching out to prospects, the MSP creates content that prospects find when they are actively searching for solutions.
 
 For MSPs, inbound marketing typically includes:
 
@@ -90,11 +90,11 @@ Outbound is the right choice when the MSP needs meetings on a predictable timeli
 
 **Entering a new market.** An MSP expanding into a new vertical (healthcare, legal, financial services) or a new geography needs to build pipeline in that segment quickly. Outbound allows precise targeting of the exact companies the MSP wants to serve.
 
-**Displacing competitors.** Since 73% of prospects already have a provider and 46% are unhappy, outbound is the most direct way to reach those dissatisfied companies. Inbound only works if those unhappy companies happen to be searching — many are not actively looking but would switch if approached with the right message at the right time.
+**Displacing competitors.** Since [Forrester's B2B buying research](https://www.forrester.com/research/b2b-marketing/) confirms that 73% of prospects already have a provider and 46% are unhappy, outbound is the most direct way to reach those dissatisfied companies. Inbound only works if those unhappy companies happen to be searching — many are not actively looking but would switch if approached with the right message at the right time.
 
 **Filling a pipeline gap.** When an MSP loses a major client or has a slow quarter, outbound provides an immediate correction. Inbound cannot be turned on and off like a faucet.
 
-**Testing a new service offering.** Before investing in content and SEO around a new service (CMMC compliance, SOC-as-a-service, cloud migration), outbound validates whether the market actually wants it. An MSP can test messaging and measure response rates in 30 days.
+**Testing a new service offering.** Before investing in content and SEO around a new service ([CMMC compliance](https://www.nist.gov/cyberframework), SOC-as-a-service, cloud migration), outbound validates whether the market actually wants it. An MSP can test messaging and measure response rates in 30 days.
 
 ## When Should an MSP Use Inbound Marketing?
 
@@ -135,7 +135,7 @@ For a detailed breakdown of what MSPs should expect to invest, see the full guid
 
 ## The Hybrid Approach: Why the Best MSPs Do Both
 
-The highest-growth MSPs do not choose between outbound and inbound — they layer them. The playbook is straightforward: start with outbound to build immediate pipeline and revenue, then reinvest a portion of that revenue into inbound assets that compound over time.
+The highest-growth MSPs do not choose between outbound and inbound — they layer them. [ChannelFutures research on MSP growth strategies](https://www.channelfutures.com/) consistently shows that top-performing providers use multiple lead generation channels simultaneously. The playbook is straightforward: start with outbound to build immediate pipeline and revenue, then reinvest a portion of that revenue into inbound assets that compound over time.
 
 **Phase 1 (Months 1-3): Outbound foundation.** Launch a managed outbound program targeting the MSP's ideal customer profile. Begin booking meetings in weeks 2-4. Use early conversations to refine messaging, identify the strongest pain points, and validate which verticals respond best.
 
