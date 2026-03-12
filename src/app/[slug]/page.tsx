@@ -4,45 +4,24 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 export async function generateStaticParams() {
-  const posts = getAllPosts();
-  return posts.map((post) => ({ slug: post.slug }));
+  return getAllPosts().map((post) => ({ slug: post.slug }));
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) return {};
-
   return {
     title: post.title,
     description: post.description,
     keywords: post.keywords,
     alternates: { canonical: `https://blog.b2bmeetings.com/${post.slug}` },
-    openGraph: {
-      title: post.title,
-      description: post.description,
-      type: "article",
-      publishedTime: post.date,
-      authors: [post.author],
-      tags: post.keywords,
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: post.title,
-      description: post.description,
-    },
+    openGraph: { title: post.title, description: post.description, type: "article", publishedTime: post.date, authors: [post.author], tags: post.keywords },
+    twitter: { card: "summary_large_image", title: post.title, description: post.description },
   };
 }
 
-export default async function BlogPostPage({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
+export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) notFound();
@@ -64,9 +43,9 @@ export default async function BlogPostPage({
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <article className="max-w-3xl mx-auto px-6 py-16">
+      <article className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Breadcrumb */}
-        <nav className="text-sm text-[var(--color-text-dim)] mb-8">
+        <nav className="text-sm text-[var(--color-text-muted)] mb-8">
           <Link href="/" className="hover:text-[var(--color-cyan)] no-underline transition">Blog</Link>
           <span className="mx-2">/</span>
           <span className="capitalize">{post.category.replace(/-/g, " ")}</span>
@@ -75,16 +54,16 @@ export default async function BlogPostPage({
         {/* Header */}
         <header className="mb-10">
           <div className="flex items-center gap-3 mb-4">
-            <span className="inline-block text-xs font-medium px-2.5 py-0.5 rounded-full bg-[var(--color-cyan)]/10 text-[var(--color-cyan)]">
+            <span className="inline-block text-xs font-medium px-2.5 py-0.5 rounded-full bg-[var(--color-surface)] text-[var(--color-text-muted)] capitalize">
               {post.category.replace(/-/g, " ")}
             </span>
-            <span className="text-xs text-[var(--color-text-dim)]">{post.readingTime} min read</span>
+            <span className="text-xs text-[var(--color-text-muted)]">{post.readingTime} min read</span>
           </div>
-          <h1 className="text-3xl md:text-4xl font-bold text-white leading-tight mb-4">
+          <h1 className="text-3xl md:text-4xl font-bold text-[var(--color-text)] leading-tight mb-4">
             {post.title}
           </h1>
-          <p className="text-lg text-[var(--color-text-muted)]">{post.description}</p>
-          <div className="flex items-center gap-4 mt-5 text-sm text-[var(--color-text-dim)]">
+          <p className="text-lg text-[var(--color-text-secondary)]">{post.description}</p>
+          <div className="flex items-center gap-4 mt-5 text-sm text-[var(--color-text-muted)]">
             <span>{new Date(post.date).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}</span>
             <span>&middot;</span>
             <span>{post.author}</span>
@@ -96,16 +75,16 @@ export default async function BlogPostPage({
         <div className="prose" dangerouslySetInnerHTML={{ __html: htmlContent }} />
 
         {/* Inline CTA */}
-        <section className="mt-14 border border-[var(--color-border)] rounded-2xl p-8 text-center bg-[var(--color-bg-card)]">
+        <section className="mt-14 bg-[var(--color-bg-dark)] rounded-2xl p-8 text-center">
           <h2 className="text-xl font-bold text-white mb-2">
             Want results like these for your firm?
           </h2>
-          <p className="text-[var(--color-text-muted)] mb-5 text-sm max-w-md mx-auto">
+          <p className="text-white/50 mb-5 text-sm max-w-md mx-auto">
             Get a free custom outbound prototype — target list, messaging, campaign architecture, and ROI projection.
           </p>
           <a
             href="https://www.b2bmeetings.com/free"
-            className="inline-flex items-center gap-2 bg-[var(--color-cyan)] hover:bg-[var(--color-cyan-hover)] text-[var(--color-bg)] px-5 py-2.5 rounded-lg font-medium text-sm no-underline transition"
+            className="inline-flex items-center gap-2 bg-[var(--color-cyan)] hover:bg-[var(--color-cyan-hover)] text-white px-5 py-2.5 rounded-lg font-medium text-sm no-underline transition"
           >
             Get Free Prototype
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
